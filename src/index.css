@@ -1,13 +1,42 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.mapboxgl-ctrl-top-right {
+  left: 0;
+  float: left !important;
+  right: auto !important;
+  margin-left: 7px;
+}
+.mapboxgl-ctrl-top-right {
+  float: left !important;
+}
+circle {
+  fill: red;
+}
+.mapboxgl-popup-content {
+  width: 281px;
+  padding: 0px 5px !important;
+  margin: 0px;
+}
+.popup-details {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  text-align: center;
+  color: green;
+}
+
+.mapboxgl-popup-close-button {
+  outline: none;
 }
